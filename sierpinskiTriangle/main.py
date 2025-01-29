@@ -2,7 +2,7 @@ import pygame,sys
 from triangleMaths import *
 
 BLACK = (0,0,0)
-WIDTH,HEIGHT = 1000,1000
+WIDTH,HEIGHT = 800,800
 WINDOW = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()
 

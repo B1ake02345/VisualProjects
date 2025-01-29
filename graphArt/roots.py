@@ -4,7 +4,8 @@ import random
 import math
 import copy
 
-window = pygame.display.set_mode((500,500))
+WIDTH, HEIGHT = 500, 500
+window = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 #colours = ([216,191,216],[221,160,221],[238,130,238],[218,112,214],[255,0,255],[186,85,211],[147,112,219],[138,43,226],[148,0,211],[153,50,204],[139,0,139],[128,0,128],[75,0,130])
 colours = ([0,0,255],[0,0,236])

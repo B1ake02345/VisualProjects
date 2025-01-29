@@ -2,8 +2,8 @@ import pygame
 import sys
 import random
 
-grid_size = [100,50]
-swidth,sheight = 1000,500
+grid_size = [50,50]
+swidth,sheight = 500,500
 cell_size = [swidth/grid_size[0],sheight/grid_size[1]]
 window = pygame.display.set_mode((swidth,sheight))
 clock = pygame.time.Clock()

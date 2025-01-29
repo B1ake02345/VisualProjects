@@ -7,7 +7,8 @@ import random
 import globals
 globals.initialise()
 
-window = pygame.display.set_mode((1366,768), pygame.FULLSCREEN)
+WIDTH, HEIGHT = 1366, 766
+window = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 FONT = pygame.font.SysFont("comicsans",20)
 colours = ([216,191,216],[221,160,221],[238,130,238],[218,112,214],[255,0,255],[186,85,211],[147,112,219],[138,43,226],[148,0,211],[153,50,204],[139,0,139],[128,0,128],[75,0,130])
